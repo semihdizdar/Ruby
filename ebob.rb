@@ -2,10 +2,9 @@
 
 def obeb(a,b)
   while b != 0
-    residuary = a % b
+    kalan = a % b
     a = b
-    y = residuary
-   return obeb(b,y)
+   return obeb(b,kalan)
   end
   print  a
 end
